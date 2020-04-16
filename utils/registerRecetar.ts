@@ -3,17 +3,13 @@ const request = require('request');
 
 
 export function registerRecetar(data, token) {
-    let info = {
-        password: data.password,
-        username: data.usuario
-    }
     return new Promise((resolve: any, reject: any) => {
         const url = `${environment.HOST}/api/auth/register`;
         const options = {
             url,
             method: 'POST',
             json: true,
-            body: info,
+            body: data,
             headers: {
                 Authorization: `JWT ${token}`
             }

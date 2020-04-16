@@ -34,6 +34,13 @@ yarn-error.log
 testem.log
 /typings
 
+# Logs generados
+/logs
+
 # System Files
 .DS_Store
 Thumbs.db
+
+# Filtramos los archivos javascript
+*.js
+*.map
