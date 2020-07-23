@@ -35,7 +35,7 @@
     "@types/node": "^9.6.0",
     "concurrently": "^3.5.1",
     "nodemon": "^1.17.2",
-    "parse": "^1.11.1",
+    "parse": "^2.10.0",
     "typescript": "^2.7.2"
   }
 }
