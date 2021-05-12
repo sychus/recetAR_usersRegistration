@@ -21,7 +21,7 @@
     "jq": "^1.7.2",
     "moment": "^2.22.0",
     "node-schedule": "^1.3.0",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "npm": "^6.14.4",
     "password-generator": "^2.2.3",
     "path": "^0.12.7",
